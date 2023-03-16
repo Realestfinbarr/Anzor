@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&family=Quicksand&family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.services{
+    background: rgba(247, 205, 180, 0.2);
+    padding: 0.125rem;
+}
+.services-ctn{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12.5rem;
+    width: 65%; 
+    padding: 1.25rem;
+    margin: 3.125rem auto;
+}
+#service-p{
+    width: 75%;
+    margin: 0px auto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#service-h3{
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.3125rem;
+    text-shadow: 1px 1px 3px crimson;
+}
+.s-ctn{
+    /* background-color: green; */
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding: 1.875rem;
+    margin: 1.25rem auto;
+    width: 100%;
+}
+.s-ctn h3{
+    font-size: 1.5625rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Merriweather", sans-serif;
+    color: rgb(247, 255, 188);
+}
+.s-ctn p{
+    font-size: 0.9375rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-align: justify;
+    color: rgb(255,255,255);
+}
+.leasing{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+    list-style:circle;
+}
+.leasing li{
+    color: rgb(255, 255, 255);
+}
+.leasing img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 30%;
+}
+.procurement{
+    background-color:  rgba(0, 0, 0, 0.8);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.procurement img{
+    width: 55%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 50%;
+}
+.construction{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.construction img{
+    width: 50%;
+    /* background: green; */
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 50%;
+}
+.construction{
+    grid-column:1/span2 ;
+}
+.marine{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.marine img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 50%;
+}
+.man-power{
+    background:  rgba(0, 0, 0, 0.8);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.man-power img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 50%;
+}
+.drilling{
+    background:  rgba(0, 0, 0, 0.3);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.drilling img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 50%;
+}
+.security{
+    background:  rgba(0, 0, 0, 0.8);    
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.security img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 30%;
+}
+.catering{
+    background:  rgba(0, 0, 0, 0.8);
+    padding: 0.9375rem;
+    border-radius: 2.5rem;
+}
+.catering img{
+    width: 50%;
+    background: green;
+    position: relative;
+    left: 28%;
+    bottom: 3.125rem;
+    border-radius: 30%;
+}
+.drilling{
+    grid-column: 1/span2;
+}
+.client{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.125rem;
+    width: auto;
+}
+.client-ctn{
+    /* background: red; */
+    text-align: center;
+    padding: 1.25rem;
+    width: auto;
+}
+.client-ctn h3{
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.3125rem;
+    text-shadow: 1px 1px 3px crimson;
+}
+.client-ctn p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+
+}
+#companies{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem;
+    text-align: center;
+}
+#companies img{
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 3.125rem;
+}
+@media (max-width: 41.875rem){
+    .s-ctn{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-btn{
+        display: flex;
+    }
+    .logo-banner a{
+        display: flex;
+    }
+}
+@media (max-width: 31.25rem){
+    #companies{
+        display: flex;
+        flex-direction: column;
+    }   
+}
